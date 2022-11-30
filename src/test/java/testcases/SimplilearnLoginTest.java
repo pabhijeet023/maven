@@ -16,7 +16,7 @@ import pages.LoginPage;
 
 public class SimplilearnLoginTest extends BaseClass {
 
-	@Test
+/*	@Test
 	public void Test1() {
 		
 		test.log(LogStatus.INFO,"Test1 started");
@@ -27,14 +27,14 @@ public class SimplilearnLoginTest extends BaseClass {
 		WebElement Error = driver.findElement(By.id("msg_box"));
 		
 		String ExpError = Error.getText();
-		String ActError = "The email or password you have entered is invalid";
+		String ActError = "The email or password you have entered is invalid.";
 			Assert.assertEquals(ExpError, ActError);
 		
 		//	Assert.assertTrue(Error.isDisplayed());
      	//	Assert.assertFalse(Error.isDisplayed());
 			
 		
-	}
+	} */
 		
 		@Test
 		@Parameters({"uname","pwd"})
